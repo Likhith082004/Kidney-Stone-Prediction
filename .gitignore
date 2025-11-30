@@ -1,0 +1,7 @@
+# Ignore model files
+*.pth
+*.pt
+
+# Python junk
+__pycache__/
+*.pyc
