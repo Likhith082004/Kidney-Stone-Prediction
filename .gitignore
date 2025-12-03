@@ -1,7 +1,51 @@
-# Ignore model files
+# ===============================
+# MODEL FILES
+# ===============================
+# Ignore ALL model files
 *.pth
 *.pt
 
-# Python junk
+# Allow ONLY this model file (your trained model)
+!mobilenet_stone_detector.pth
+
+
+# ===============================
+# IGNORE LARGE DATASET
+# ===============================
+kidney_dataset/
+dataset/
+data/
+
+
+# ===============================
+# PYTHON CACHE & TEMP FILES
+# ===============================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.log
+
+
+# ===============================
+# EDITOR SETTINGS
+# ===============================
+.vscode/
+.idea/
+
+
+# ===============================
+# SYSTEM FILES
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ===============================
+# ENVIRONMENTS
+# ===============================
+.env
+.venv/
+venv/
+ENV/
